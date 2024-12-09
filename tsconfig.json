@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "es2016",                                  
+    "module": "esnext",                                 
+    "lib": ["dom", "dom.iterable", "esnext"],           
+    "jsx": "react-jsx",     
+
+
+    /* Type Checking */
+    "strict": true,                                     
+    "noImplicitAny": true,                              
+    "strictNullChecks": true,                           
+    "strictBindCallApply": true,                        
+    "forceConsistentCasingInFileNames": true,           
+    "noImplicitThis": true,                             
+    "noUnusedLocals": true,                             
+    "noUnusedParameters": true,                         
+    "noFallthroughCasesInSwitch": true,                 
+    "skipLibCheck": true,                               
+
+    /* Module Resolution */
+    "moduleResolution": "node",                        
+    "esModuleInterop": true,                            
+    "resolveJsonModule": true,                          
+    "isolatedModules": true,                            
+
+    /* Output Settings */
+    "outDir": "./dist",                                 
+    "rootDir": "./src",                                 
+    "allowSyntheticDefaultImports": true,              
+    "noEmit": true                                      
+  },
+  "include": ["src"],                                   
+  "exclude": ["node_modules", "dist"]                   
+}
